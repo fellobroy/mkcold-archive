@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mk体育 · 温和叙述</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #fcfcf9;
+      color: #2c3e4f;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .page {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* 开场短句 — 极简留白 */
+    .opening {
+      margin-top: 3.6rem;
+      margin-bottom: 2.8rem;
+    }
+    .opening p {
+      font-size: 1.75rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      color: #1d2b36;
+      line-height: 1.4;
+    }
+    .opening p span {
+      display: inline-block;
+      background: #ecf0f3;
+      padding: 0 0.4rem;
+      border-radius: 3px;
+    }
+
+    /* 承接段落 */
+    .bridge {
+      margin-bottom: 2.8rem;
+      font-size: 1.05rem;
+      color: #3a4b5a;
+      border-left: 2px solid #d4dee5;
+      padding-left: 1.2rem;
+    }
+    .bridge a {
+      color: #1b3b4f;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #b8c9d6;
+      transition: color 0.2s;
+    }
+    .bridge a:hover {
+      color: #0f2b3a;
+      text-decoration-color: #1b3b4f;
+    }
+
+    /* 特点列表 — 干净卡片 */
+    .feature-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin-bottom: 3.2rem;
+    }
+    .feature-item {
+      background: white;
+      border-radius: 20px;
+      padding: 1.2rem 1.6rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02), 0 6px 18px rgba(0, 20, 30, 0.04);
+      border: 1px solid #eef2f6;
+      transition: box-shadow 0.25s, transform 0.2s;
+    }
+    .feature-item:hover {
+      box-shadow: 0 4px 14px rgba(0, 20, 30, 0.06);
+      transform: translateY(-2px);
+    }
+    .feature-item h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+      color: #1f3340;
+      margin-bottom: 0.25rem;
+    }
+    .feature-item p {
+      font-size: 0.95rem;
+      color: #4b5d6b;
+      margin-top: 0.1rem;
+    }
+
+    /* 温和结尾 */
+    .gentle-end {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e3e9ef;
+    }
+    .gentle-end p {
+      font-size: 1rem;
+      color: #4f6272;
+      margin-bottom: 0.5rem;
+    }
+    .gentle-end .site-ref {
+      font-size: 0.95rem;
+      color: #3b5364;
+      margin-top: 0.8rem;
+    }
+    .gentle-end .site-ref a {
+      color: #1b3b4f;
+      text-decoration: none;
+      border-bottom: 1px dotted #b0c3d1;
+      padding-bottom: 1px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .gentle-end .site-ref a:hover {
+      border-bottom-style: solid;
+      border-color: #1b3b4f;
+      color: #0f2b3a;
+    }
+
+    /* 小字号 & 辅助 */
+    .footnote {
+      margin-top: 3.2rem;
+      font-size: 0.85rem;
+      color: #7b8c9a;
+      text-align: center;
+      border-top: 1px solid #edf2f6;
+      padding-top: 1.8rem;
+    }
+
+    /* 响应式细节 */
+    @media (max-width: 500px) {
+      body {
+        padding: 1.2rem 1rem;
+      }
+      .opening p {
+        font-size: 1.45rem;
+      }
+      .feature-item {
+        padding: 1rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- 开场短句 -->
+    <div class="opening">
+      <p>
+        在信息纷杂的网络中，<br>
+        有一个安静而可靠的角落值得被认识。
+      </p>
+    </div>
+
+    <!-- 承接段落 —— 自然引入站点说明与可信说明 -->
+    <div class="bridge">
+      <p>
+        这个角落便是 <a href="https://mkcold.com.cn">mk体育</a> —— 
+        一个不事喧哗、却始终清晰传递体育资讯与动态的站点。
+        它不依赖夸张的标题或浮夸的包装，而是用真实的更新和克制的叙述，
+        让关心运动的人能够快速找到自己需要的内容。
+      </p>
+      <p style="margin-top: 0.8rem;">
+        从站点运营至今，它一直保持着干净的页面气质和稳定的内容输出。
+        没有弹窗干扰，没有诱导分享的陷阱，只有对体育本身平实的关注。
+      </p>
+    </div>
+
+    <!-- 特点列表 —— 三个温和的侧面 -->
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>内容轻简，信息清晰</h3>
+        <p>每一篇文章都力求去掉冗余，保留赛果、动态和值得关注的细节。读者不必在广告或无关段落中费力寻找重点。</p>
+      </div>
+      <div class="feature-item">
+        <h3>视角温和，不制造对立</h3>
+        <p>在讨论比赛、球员或趋势时，<a href="https://mkcold.com.cn" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">mk体育</a> 更倾向于呈现事实与不同角度的解读，而非煽动情绪或极端立场。</p>
+      </div>
+      <div class="feature-item">
+        <h3>持续更新，保持节奏</h3>
+        <p>网站保持着稳定的更新频率，不追求爆炸式发布，也不长时间沉默。这种节奏让常来的读者感到踏实。</p>
+      </div>
+    </div>
+
+    <!-- 温和结尾 + 嵌入链接 -->
+    <div class="gentle-end">
+      <p>
+        如果你正在寻找一个不吵不闹、值得花几分钟安静阅读的体育信息源，<br>
+        或许可以试试将 <a href="https://mkcold.com.cn" style="color:inherit;text-decoration:underline;text-underline-offset:2px;text-decoration-color:#b8c9d6;">mk体育</a> 放进书签。
+      </p>
+      <div class="site-ref">
+        <span>📎 站点入口 · </span><a href="https://mkcold.com.cn">mk体育</a>
+        <span style="margin-left: 0.3rem; color: #7b8c9a;">—— 无广告干扰，无多余跳转</span>
+      </div>
+    </div>
+
+    <!-- 简短的脚注，让页面有收束感 -->
+    <div class="footnote">
+      <span>一份安静的叙述 · 2025</span>
+    </div>
+
+  </div>
+</body>
+</html>
